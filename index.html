@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INFINITI</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Roboto&family=Sora:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon Pack -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <!-- Wrapper -->
+    <div class="min-h-dvh w-full relative bg-slate-50">
+      <!-- Hero Section -->
+      <section class="flex h-[35rem]">
+        <!-- Left-Section -->
+        <div class="flex flex-[2] items-center justify-center">
+          <!-- Content -->
+          <div class="w-3/4 max-h-full px-3 flex flex-col gap-7">
+            <h1
+              class="text-6xl font-semibold tracking-tighter leading-normal text-slate-950"
+            >
+              Going Above and <br />Beyond To Find <br />Your Next Home
+            </h1>
+            <h3 class="text-gray-600 text-xs">
+              No One Has More Experience Or Expertise To Help You Than An Agent
+              Who Is A Realtor. <br />If you have the opportunity to suggest a
+              real estate agent to anyone, think of me A referral <br />from you
+              is the highest compliment I can receive
+            </h3>
+            <!-- Property Search -->
+            <div
+              class="w-fit bg-slate-100 rounded-3xl flex gap-6 relative items-center"
+            >
+              <span
+                class="material-symbols-outlined absolute left-3 top-1 text-sm"
+              >
+                search
+              </span>
+              <input
+                type="search"
+                name="search"
+                id="search"
+                placeholder="Search Properties"
+                class="bg-transparent pl-7 text-[10px]"
+              />
+              <div class="h-5 w-[1px] bg-slate-300 absolute left-48"></div>
+              <span
+                class="material-symbols-outlined text-sm absolute left-[12.1rem]"
+              >
+                location_on
+              </span>
+              <select
+                name="location"
+                id="location"
+                class="text-[10px] tracking-tighter text-gray-400 bg-transparent"
+              >
+                <option value="selected" class="hidden">Location</option>
+                <option value="india">India</option>
+                <option value="australia">Australia</option>
+                <option value="germany">Germany</option>
+              </select>
+              <div class="h-5 w-[1px] bg-slate-300 absolute left-[17rem]"></div>
+              <span
+                class="material-symbols-outlined text-sm absolute right-[10.2rem]"
+              >
+                shoppingmode
+              </span>
+              <select
+                name="pricing"
+                id="pricing"
+                class="text-[10px] tracking-tighter text-gray-400 bg-transparent"
+              >
+                <option value="selected" class="hidden">Pricing</option>
+                <option value="100">$100</option>
+                <option value="200">$200</option>
+                <option value="300">$300</option>
+              </select>
+              <button
+                type="button"
+                class="border-solid rounded-3xl bg-black text-[8px] tracking-tighter text-gray-200 w-20 h-7"
+              >
+                Search
+              </button>
+            </div>
+            <div class="flex gap-24">
+              <div class="flex relative">
+                <div
+                  class="w-5 h-5 bg-black rounded-full border-slate-50 border-2 absolute left-0"
+                ></div>
+                <div
+                  class="w-5 h-5 bg-red-900 rounded-full border-slate-50 border-2 absolute left-4"
+                ></div>
+                <div
+                  class="w-5 h-5 bg-green-800 rounded-full border-slate-50 border-2 absolute left-8"
+                ></div>
+                <div
+                  class="w-5 h-5 bg-sky-800 rounded-full border-slate-50 border-2 absolute left-12"
+                ></div>
+                <div
+                  class="w-5 h-5 bg-purple-800 rounded-full border-slate-50 border-2 absolute left-16"
+                ></div>
+              </div>
+              <h2 class="text-gray-600 text-xs">
+                The best time to buy a home is always 5 years ago.
+                <span class="font-semibold">500+ <br />Happy Clients</span> in
+                Bangladesh
+              </h2>
+            </div>
+          </div>
+        </div>
+        <!-- Right-Section -->
+        <div
+          class="flex-1 bg-[url('https://i.pinimg.com/564x/7f/d0/0e/7fd00e2f9dc095aa59bbb2b39332dc61.jpg')]"
+        ></div>
+      </section>
+      <!-- Navbar -->
+      <nav
+        class="w-full h-fit flex items-center justify-around py-4 absolute top-0"
+      >
+        <!-- Logo -->
+        <div class="flex items-center gap-1">
+          <img src="./assets/logo.png" alt="logo" class="w-6" />
+          <h1 class="font-semibold text-slate-800 tracking-tighter">
+            INFINITI
+          </h1>
+        </div>
+        <!-- Links -->
+        <div class="flex gap-10 text-gray-600">
+          <a href="" class="text-[10px] tracking-tighter">Home</a>
+          <a href="" class="text-[10px] tracking-tighter">About</a>
+          <a href="" class="text-[10px] tracking-tighter">Top Property</a>
+          <a href="" class="text-[10px] tracking-tighter">New Projects</a>
+          <a href="" class="text-[10px] tracking-tighter">Contact</a>
+        </div>
+        <!-- Login Buttons -->
+        <div class="flex gap-1">
+          <button
+            type="button"
+            class="border-solid rounded-3xl bg-slate-200 text-[8px] tracking-tighter text-gray-600 w-16 h-7"
+          >
+            Sign up
+          </button>
+          <button
+            type="button"
+            class="border-solid rounded-3xl bg-black text-[8px] tracking-tighter text-gray-200 w-16 h-7"
+          >
+            Log in
+          </button>
+        </div>
+      </nav>
+    </div>
+  </body>
+</html>
