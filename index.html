@@ -55,7 +55,7 @@
                 name="search"
                 id="search"
                 placeholder="Search Properties"
-                class="bg-transparent pl-7 text-[10px] rounded-3xl"
+                class="bg-transparent pl-7 text-[10px] rounded-3xl h-full"
               />
               <div
                 class="h-5 w-[1px] bg-slate-200 absolute left-[11.7rem]"
@@ -93,7 +93,7 @@
               </select>
               <button
                 type="button"
-                class="border-solid rounded-3xl bg-black text-[8px] tracking-tighter text-gray-200 w-[7.5rem] h-10"
+                class="border-solid rounded-3xl bg-slate-900 hover:bg-slate-950 text-[8px] tracking-tighter text-gray-200 w-[7.5rem] h-10"
               >
                 Search
               </button>
@@ -138,31 +138,56 @@
         class="w-full h-fit flex items-center justify-around py-4 absolute top-0"
       >
         <!-- Logo -->
-        <div class="flex items-center gap-1">
-          <img src="./assets/logo.png" alt="logo" class="w-6" />
+        <a class="flex items-center gap-1" href=""
+          ><img src="./assets/logo.png" alt="logo" class="w-6" />
           <h1 class="font-semibold text-slate-800 tracking-tighter">
             INFINITI
-          </h1>
-        </div>
+          </h1></a
+        >
         <!-- Links -->
-        <div class="flex gap-10 text-gray-600">
-          <a href="" class="text-[10px] tracking-tighter">Home</a>
-          <a href="" class="text-[10px] tracking-tighter">About</a>
-          <a href="" class="text-[10px] tracking-tighter">Top Property</a>
-          <a href="" class="text-[10px] tracking-tighter">New Projects</a>
-          <a href="" class="text-[10px] tracking-tighter">Contact</a>
+        <div class="flex gap-10 text-gray-600 items-center justify-center">
+          <a
+            href=""
+            class="text-[10px] tracking-tighter after:w-0 after:h-[2px] after:bg-rose-400 after:block after:m-auto after:duration-500 hover:after:w-full"
+          >
+            Home</a
+          >
+          <a
+            href=""
+            class="text-[10px] tracking-tighter after:w-0 after:h-[2px] after:bg-rose-400 after:block after:m-auto after:duration-500 hover:after:w-full"
+          >
+            About</a
+          >
+          <a
+            href=""
+            class="text-[10px] tracking-tighter after:w-0 after:h-[2px] after:bg-rose-400 after:block after:m-auto after:duration-500 hover:after:w-full"
+          >
+            Top Property</a
+          >
+          <a
+            href=""
+            class="text-[10px] tracking-tighter after:w-0 after:h-[2px] after:bg-rose-400 after:block after:m-auto after:duration-500 hover:after:w-full"
+          >
+            New Projects</a
+          >
+          <a
+            href=""
+            class="text-[10px] tracking-tighter after:w-0 after:h-[2px] after:bg-rose-400 after:block after:m-auto after:duration-500 hover:after:w-full"
+          >
+            Contact</a
+          >
         </div>
         <!-- Login Buttons -->
         <div class="flex gap-1">
           <button
             type="button"
-            class="border-solid rounded-3xl bg-slate-200 text-[8px] tracking-tighter text-gray-600 w-16 h-7"
+            class="border-solid rounded-3xl bg-slate-200 hover:bg-slate-300 text-[8px] tracking-tighter text-gray-600 w-16 h-7"
           >
             Sign up
           </button>
           <button
             type="button"
-            class="border-solid rounded-3xl bg-black text-[8px] tracking-tighter text-gray-200 w-16 h-7"
+            class="border-solid rounded-3xl bg-slate-900 hover:bg-slate-950 text-[8px] tracking-tighter text-gray-200 w-16 h-7"
           >
             Log in
           </button>
