@@ -25,7 +25,7 @@
     <!-- Wrapper -->
     <div class="min-h-dvh w-full bg-slate-50">
       <!-- Hero Section -->
-      <section id="section" class="flex h-3/4 duration-500">
+      <section id="hero" class="flex h-3/4">
         <!-- Left-Section -->
         <div class="max-w-full flex flex-[2] justify-center">
           <!-- Content -->
@@ -56,7 +56,7 @@
                 type="search"
                 name="search"
                 id="search"
-                placeholder="Search"
+                placeholder="Search Properties"
                 class="bg-transparent pl-7 text-[10px] rounded-3xl h-full max-[700px]:max-w-20"
               />
               <div
@@ -132,7 +132,7 @@
         </div>
         <!-- Right-Section -->
         <div
-          class="flex-1 bg-[url('https://i.pinimg.com/564x/7f/d0/0e/7fd00e2f9dc095aa59bbb2b39332dc61.jpg')] max-[700px]:hidden"
+          class="max-w-full flex-1 bg-[url('https://i.pinimg.com/564x/7f/d0/0e/7fd00e2f9dc095aa59bbb2b39332dc61.jpg')] max-[700px]:hidden"
         ></div>
       </section>
       <!-- Navbar -->
@@ -149,47 +149,44 @@
         <!-- Links -->
         <div
           id="links"
-          class="flex w-full justify-between items-center text-gray-600 max-[700px]:flex-col max-[700px]:gap-3 max-[700px]:items-start max-[700px]:justify-start max-[700px]:bg-rose-100 max-[700px]:max-w-56 max-[700px]:px-3 max-[700px]:py-3 max-[700px]:rounded-s-2xl max-[700px]:absolute max-[700px]:top-12 max-[700px]:-right-full max-[700px]:duration-500 max-[700px]:border-rose-200 max-[700px]:border-[1px]"
+          class="flex w-full justify-between items-center text-gray-600 max-[700px]:flex-col max-[700px]:gap-3 max-[700px]:items-start max-[700px]:justify-start max-[700px]:bg-violet-300 max-[700px]:max-w-56 max-[700px]:px-3 max-[700px]:py-3 max-[700px]:rounded-s-2xl max-[700px]:absolute max-[700px]:hidden max-[700px]:top-14 max-[700px]:right-6 max-[700px]:border-violet-400 max-[700px]:border-[1px]"
         >
           <div
             class="flex gap-10 max-[700px]:gap-2 text-gray-600 items-start max-[700px]:w-full max-[700px]:flex-col"
           >
             <a
               href=""
-              class="text-[10px] tracking-tighter after:w-0 after:h-[2px] after:bg-rose-400 after:block after:m-auto after:duration-500 hover:after:w-full"
+              class="text-[10px] tracking-tighter after:w-0 after:h-[2px] after:bg-rose-400 max-[700px]:after:bg-violet-600 after:block after:m-auto after:duration-500 hover:after:w-full"
             >
               Home</a
             >
             <a
               href=""
-              class="text-[10px] tracking-tighter after:w-0 after:h-[2px] after:bg-rose-400 after:block after:m-auto after:duration-500 hover:after:w-full"
+              class="text-[10px] tracking-tighter after:w-0 after:h-[2px] after:bg-rose-400 max-[700px]:after:bg-violet-600 after:block after:m-auto after:duration-500 hover:after:w-full"
             >
               About</a
             >
             <a
               href=""
-              class="text-[10px] tracking-tighter after:w-0 after:h-[2px] after:bg-rose-400 after:block after:m-auto after:duration-500 hover:after:w-full"
+              class="text-[10px] tracking-tighter after:w-0 after:h-[2px] after:bg-rose-400 max-[700px]:after:bg-violet-600 after:block after:m-auto after:duration-500 hover:after:w-full"
             >
               Top Property</a
             >
             <a
               href=""
-              class="text-[10px] tracking-tighter after:w-0 after:h-[2px] after:bg-rose-400 after:block after:m-auto after:duration-500 hover:after:w-full"
+              class="text-[10px] tracking-tighter after:w-0 after:h-[2px] after:bg-rose-400 max-[700px]:after:bg-violet-600 after:block after:m-auto after:duration-500 hover:after:w-full"
             >
               New Projects</a
             >
             <a
               href=""
-              class="text-[10px] tracking-tighter after:w-0 after:h-[2px] after:bg-rose-400 after:block after:m-auto after:duration-500 hover:after:w-full"
+              class="text-[10px] tracking-tighter after:w-0 after:h-[2px] after:bg-rose-400 max-[700px]:after:bg-violet-600 after:block after:m-auto after:duration-500 hover:after:w-full"
             >
               Contact</a
             >
           </div>
           <!-- Login Buttons -->
-          <div
-            id="btn"
-            class="flex max-[700px]:flex-col gap-1 max-[700px]:gap-2 max-[700px]:duration-500"
-          >
+          <div class="flex max-[700px]:flex-col gap-1 max-[700px]:gap-2">
             <button
               type="button"
               class="border-solid rounded-3xl bg-slate-200 max-[700px]:bg-slate-900 hover:bg-slate-300 max-[700px]:hover:bg-slate-950 text-[8px] tracking-tighter text-gray-600 max-[700px]:text-gray-200 w-16 h-7"
@@ -205,25 +202,17 @@
           </div>
         </div>
         <!-- Toggle -->
-        <label class="plane-switch hidden max-[700px]:block">
-          <input type="checkbox" onclick="togglemenu()" />
-          <div>
-            <div>
-              <svg viewBox="0 0 13 13">
-                <path
-                  d="M1.55989957,5.41666667 L5.51582215,5.41666667 L4.47015462,0.108333333 L4.47015462,0.108333333 C4.47015462,0.0634601974 4.49708054,0.0249592654 4.5354546,0.00851337035 L4.57707145,0 L5.36229752,0 C5.43359776,0 5.50087375,0.028779451 5.55026392,0.0782711996 L5.59317877,0.134368264 L7.13659662,2.81558333 L8.29565964,2.81666667 C8.53185377,2.81666667 8.72332694,3.01067661 8.72332694,3.25 C8.72332694,3.48932339 8.53185377,3.68333333 8.29565964,3.68333333 L7.63589819,3.68225 L8.63450135,5.41666667 L11.9308317,5.41666667 C12.5213171,5.41666667 13,5.90169152 13,6.5 C13,7.09830848 12.5213171,7.58333333 11.9308317,7.58333333 L8.63450135,7.58333333 L7.63589819,9.31666667 L8.29565964,9.31666667 C8.53185377,9.31666667 8.72332694,9.51067661 8.72332694,9.75 C8.72332694,9.98932339 8.53185377,10.1833333 8.29565964,10.1833333 L7.13659662,10.1833333 L5.59317877,12.8656317 C5.55725264,12.9280353 5.49882018,12.9724157 5.43174295,12.9907056 L5.36229752,13 L4.57707145,13 L4.55610333,12.9978962 C4.51267695,12.9890959 4.48069792,12.9547924 4.47230803,12.9134397 L4.47223088,12.8704208 L5.51582215,7.58333333 L1.55989957,7.58333333 L0.891288881,8.55114605 C0.853775374,8.60544678 0.798421006,8.64327676 0.73629202,8.65879796 L0.672314689,8.66666667 L0.106844414,8.66666667 L0.0715243949,8.66058466 L0.0715243949,8.66058466 C0.0297243066,8.6457608 0.00275502199,8.60729104 0,8.5651586 L0.00593007386,8.52254537 L0.580855011,6.85813984 C0.64492547,6.67265611 0.6577034,6.47392717 0.619193545,6.28316421 L0.580694768,6.14191703 L0.00601851064,4.48064746 C0.00203480725,4.4691314 0,4.45701613 0,4.44481314 C0,4.39994001 0.0269259152,4.36143908 0.0652999725,4.34499318 L0.106916826,4.33647981 L0.672546853,4.33647981 C0.737865848,4.33647981 0.80011301,4.36066329 0.848265401,4.40322477 L0.89131128,4.45169723 L1.55989957,5.41666667 Z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-            </div>
-            <span class="street-middle"></span>
-            <span class="cloud"></span>
-            <span class="cloud two"></span>
-          </div>
-        </label>
+        <div id="menuToggle" class="hidden max-[700px]:block">
+          <input id="checkbox" type="checkbox" onclick="togglemenu()" />
+          <label class="toggle" for="checkbox">
+            <div class="bar bar--top"></div>
+            <div class="bar bar--middle"></div>
+            <div class="bar bar--bottom"></div>
+          </label>
+        </div>
       </nav>
       <!-- Companies -->
-      <footer class="w-full flex flex-col items-center gap-5 pt-10">
+      <footer id="footer" class="w-full flex flex-col items-center gap-5 pt-10">
         <h1 class="text-gray-800 text-sm tracking-tight">
           Trusted by 100+ industry leaders
         </h1>
@@ -261,7 +250,7 @@
         </div>
       </footer>
       <!-- Projects -->
-      <section class="flex flex-col px-32 gap-7 pt-20">
+      <section id="projects" class="flex flex-col px-32 gap-7 pt-20">
         <div class="flex justify-between items-center">
           <h1 class="text-3xl tracking-tight">Our Top Projects 2024</h1>
           <button
@@ -300,21 +289,7 @@
         </div>
       </section>
       <!-- Script -->
-      <script>
-        let links = document.getElementById("links");
-        let section = document.getElementById("section");
-        let isClick = 1;
-        function togglemenu() {
-          if (isClick % 2 != 0) {
-            links.style.right = "23px";
-            section.style.filter = "blur(3px)";
-          } else {
-            links.style.right = "-100%";
-            section.style.filter = "blur(0px)";
-          }
-          isClick += 1;
-        }
-      </script>
+      <script src="script.js"></script>
     </div>
   </body>
 </html>
