@@ -149,7 +149,7 @@
         <!-- Links -->
         <div
           id="links"
-          class="flex w-full justify-between items-center text-gray-600 max-[700px]:flex-col max-[700px]:gap-3 max-[700px]:items-start max-[700px]:justify-start max-[700px]:bg-violet-300 max-[700px]:max-w-56 max-[700px]:px-3 max-[700px]:py-3 max-[700px]:rounded-s-2xl max-[700px]:absolute max-[700px]:hidden max-[700px]:top-14 max-[700px]:right-6 max-[700px]:border-violet-400 max-[700px]:border-[1px]"
+          class="flex w-full justify-between items-center text-gray-600 max-[700px]:flex-col max-[700px]:gap-3 max-[700px]:items-start max-[700px]:justify-start max-[700px]:bg-violet-300 max-[700px]:max-w-56 max-[700px]:px-3 max-[700px]:py-3 max-[700px]:rounded-s-2xl max-[700px]:absolute max-[700px]:hidden max-[700px]:top-14 max-[700px]:right-[21px] max-[700px]:border-violet-400 max-[700px]:border-[1px]"
         >
           <div
             class="flex gap-10 max-[700px]:gap-2 text-gray-600 items-start max-[700px]:w-full max-[700px]:flex-col"
@@ -201,15 +201,14 @@
             </button>
           </div>
         </div>
-        <!-- Toggle -->
-        <div id="menuToggle" class="hidden max-[700px]:block">
-          <input id="checkbox" type="checkbox" onclick="togglemenu()" />
-          <label class="toggle" for="checkbox">
-            <div class="bar bar--top"></div>
-            <div class="bar bar--middle"></div>
-            <div class="bar bar--bottom"></div>
-          </label>
-        </div>
+        <!-- Hamburger -->
+        <span
+          id="hamburger"
+          class="material-symbols-outlined hidden max-[700px]:block max-[700px]:hover:bg-black max-[700px]:hover:text-white max-[700px]:hover:cursor-pointer"
+          onclick="togglemenu()"
+        >
+          menu
+        </span>
       </nav>
       <!-- Companies -->
       <footer id="footer" class="w-full flex flex-col items-center gap-5 pt-10">
