@@ -35,7 +35,7 @@
             <h1
               class="text-7xl max-[700px]:text-6xl font-semibold tracking-tight leading-tight text-slate-950"
             >
-              Going Above and <br />Beyond To Find <br />Your Next Home
+              Going Above and Beyond To Find Your Next Home
             </h1>
             <h3 class="text-gray-600 text-xs tracking-tight leading-5">
               No one has more experience or expertise to help you than an agent
@@ -57,13 +57,13 @@
                 name="search"
                 id="search"
                 placeholder="Search Properties"
-                class="bg-transparent pl-7 text-[10px] rounded-3xl h-full max-[700px]:max-w-20"
+                class="bg-transparent pl-7 text-[10px] rounded-3xl h-full max-[700px]:max-w-16"
               />
               <div
-                class="h-5 w-[1px] bg-slate-200 absolute left-[11.7rem]"
+                class="h-5 w-[1px] bg-slate-200 absolute left-[11.7rem] max-[700px]:left-[4.2rem]"
               ></div>
               <span
-                class="material-symbols-outlined text-sm absolute left-[12rem] text-gray-500"
+                class="material-symbols-outlined text-sm absolute left-[12rem] max-[700px]:left-[4.5rem] text-gray-500"
               >
                 location_on
               </span>
@@ -77,9 +77,11 @@
                 <option value="australia">Australia</option>
                 <option value="germany">Germany</option>
               </select>
-              <div class="h-5 w-[1px] bg-slate-200 absolute left-[17rem]"></div>
+              <div
+                class="h-5 w-[1px] bg-slate-200 absolute left-[17rem] max-[700px]:left-[9.5rem]"
+              ></div>
               <span
-                class="material-symbols-outlined text-sm absolute left-[17.4rem] text-gray-500"
+                class="material-symbols-outlined text-sm absolute left-[17.4rem] max-[700px]:left-[9.8rem] text-gray-500"
               >
                 shoppingmode
               </span>
@@ -122,8 +124,8 @@
               </div>
               <h2 class="text-gray-600 text-xs tracking-tight">
                 The best time to buy a home is always 5 years ago.
-                <span class="font-medium text-gray-800"
-                  >500+ <br />Happy Clients</span
+                <br /><span class="font-medium text-gray-800"
+                  >500+ Happy Clients</span
                 >
                 in Australia
               </h2>
@@ -149,7 +151,7 @@
         <!-- Links -->
         <div
           id="links"
-          class="flex w-full justify-between items-center text-gray-600 max-[700px]:flex-col max-[700px]:gap-3 max-[700px]:items-start max-[700px]:justify-start max-[700px]:bg-violet-300 max-[700px]:max-w-56 max-[700px]:px-3 max-[700px]:py-3 max-[700px]:rounded-s-2xl max-[700px]:absolute max-[700px]:hidden max-[700px]:top-14 max-[700px]:right-[21px] max-[700px]:border-violet-400 max-[700px]:border-[1px]"
+          class="flex w-full justify-between items-center text-gray-600 max-[700px]:flex-col max-[700px]:gap-3 max-[700px]:items-start max-[700px]:justify-start max-[700px]:bg-violet-300 max-[700px]:max-w-56 max-[700px]:px-3 max-[700px]:py-3 max-[700px]:rounded-3xl max-[700px]:absolute max-[700px]:hidden max-[700px]:top-14 max-[700px]:right-[21px] max-[700px]:border-violet-400 max-[700px]:border-[1px]"
         >
           <div
             class="flex gap-10 max-[700px]:gap-2 text-gray-600 items-start max-[700px]:w-full max-[700px]:flex-col"
@@ -211,40 +213,45 @@
         </span>
       </nav>
       <!-- Companies -->
-      <footer id="footer" class="w-full flex flex-col items-center gap-5 pt-10">
-        <h1 class="text-gray-800 text-sm tracking-tight">
+      <footer
+        id="footer"
+        class="max-w-full flex flex-col items-center gap-5 pt-10"
+      >
+        <h1 class="text-gray-800 text-sm max-[700px]:text-xs tracking-tight">
           Trusted by 100+ industry leaders
         </h1>
-        <div class="w-full flex items-center justify-evenly">
+        <div
+          class="max-w-full flex max-[700px]:gap-2 items-center justify-evenly"
+        >
           <img
             src="./assets/Spotify_Logo_CMYK_Green.png"
             alt="spotify_logo"
-            class="max-w-20"
+            class="max-w-20 max-[700px]:max-w-12"
           />
           <img
             src="./assets/google-logo-9834.png"
             alt="google_logo"
-            class="max-w-20"
+            class="max-w-20 max-[700px]:max-w-12"
           />
           <img
             src="./assets/netflix-logo-png-2584.png"
             alt="netflix_logo"
-            class="max-w-20"
+            class="max-w-20 max-[700px]:max-w-12"
           />
           <img
             src="./assets/microsoft-logo-png-2411.png"
             alt="microsoft_logo"
-            class="max-w-20"
+            class="max-w-20 max-[700px]:max-w-12"
           />
           <img
             src="./assets/Tinder-logo.png"
             alt="tinder_logo"
-            class="max-w-20"
+            class="max-w-20 max-[700px]:max-w-12"
           />
           <img
             src="./assets/MongoDB_Logo.svg.png"
             alt="mongodb_logo"
-            class="max-w-20"
+            class="max-w-20 max-[700px]:max-w-12"
           />
         </div>
       </footer>
@@ -254,7 +261,7 @@
           <h1 class="text-3xl tracking-tight">Our Top Projects 2024</h1>
           <button
             type="button"
-            class="border-solid border-slate-500 hover:bg-slate-200 border-[1px] rounded-3xl bg-transparent text-sm tracking-tighter text-gray-600 w-24 h-9"
+            class="border-solid border-slate-500 hover:bg-slate-100 border-[1px] rounded-3xl bg-transparent text-sm tracking-tighter text-gray-600 w-24 h-9"
           >
             See All
           </button>
@@ -284,6 +291,86 @@
             ></div>
             <h2 class="text-lg">The Never-Ending Story</h2>
             <h3 class="text-[10px]">8F-5-24-2, Sendagaya, Shibuya-Ku, USA</h3>
+          </div>
+        </div>
+      </section>
+      <!-- About Us -->
+      <section class="max-w-full flex px-32 mt-20 pt-10 bg-slate-100">
+        <!-- Left -->
+        <div class="flex flex-col flex-1 gap-2">
+          <img
+            src="https://i.pinimg.com/564x/14/88/d1/1488d1f5b6656824cf821025a23f03e7.jpg"
+            alt="worker"
+          />
+          <!-- Social Media -->
+          <div class="flex justify-end items-center gap-4">
+            <img
+              src="./assets/linkedin-logo-png-1841.png"
+              alt="linkedin"
+              class="w-4"
+            />
+            <img
+              src="./assets/logo-instagram-2429.png"
+              alt="instagram"
+              class="w-4"
+            />
+            <img
+              src="/assets/f-letter-logo-png-1571.png"
+              alt="facebook"
+              class="w-4"
+            />
+            <img
+              src="./assets/logo-twitter-png-5860.png"
+              alt="twitter"
+              class="w-4"
+            />
+          </div>
+        </div>
+        <!-- Right -->
+        <div class="flex flex-col flex-[2] pl-10 gap-7 max-w-full">
+          <h1 class="text-7xl font-medium">About Us</h1>
+          <h2 class="text-4xl leading-snug">
+            The potential of a property is as good as the person investing in
+            it.
+          </h2>
+          <p class="text-sm text-justify">
+            Your best investment opportunities won't fit into a safety deposit,
+            but you can live in it.
+            <span class="font-"
+              >Realtors are matchmakers that introduce people to homes until
+              they fall in love with one. Then they're the wedding
+              planner.</span
+            >
+          </p>
+          <div class="flex flex-col justify-between h-full">
+            <p class="text-sm text-justify">
+              A house is made of bricks and beams. A home is made of hopes and
+              dreams. We'll help you find your home. If you have the opportunity
+              to suggest a real estate agent to anyone, think of me. It's 6:30am
+              do you know where your next home is going to be?
+            </p>
+            <div class="flex justify-between pb-6">
+              <div class="flex flex-col">
+                <h1 class="text-2xl">500+</h1>
+                <h2 class="text-[10px] max-w-10">Projects Completed</h2>
+              </div>
+              <div class="flex flex-col">
+                <h1 class="text-2xl">10K+</h1>
+                <h2 class="text-[10px] max-w-10">Happy Clients</h2>
+              </div>
+              <div class="flex flex-col">
+                <h1 class="text-2xl">8K+</h1>
+                <h2 class="text-[10px] max-w-10">Client Reviews</h2>
+              </div>
+              <div class="flex flex-col">
+                <h1 class="text-2xl">50+</h1>
+                <h2 class="text-[10px] max-w-10">New Projects</h2>
+              </div>
+              <div class="flex flex-col">
+                <h1 class="text-2xl">3.5M$</h1>
+                <h2 class="text-[10px] max-w-10">New Funds</h2>
+              </div>
+            </div>
           </div>
         </div>
       </section>
